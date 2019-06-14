@@ -10,31 +10,31 @@ const App = () => {
         <ApprovalCard>
           <div>
             <h4>Warning</h4>
-            Are you sure yiu want to do this?
+            Are you sure you want to do this?
           </div>
           </ApprovalCard>       
 
      <ApprovalCard>
       <CommentDetail 
         author="sam" 
-        text="2aaa" 
-        time="rrr22" 
+        text="never say Hello" 
+        time="20:00PM" 
         avatar={faker.image.avatar()}/>
         </ApprovalCard>
 
         <ApprovalCard>
       <CommentDetail 
         author="amir" 
-        text="aaaaaa" 
-        time="2rr2" 
+        text="need to get the users physical loaction" 
+        time="2:AM" 
         avatar={faker.image.avatar()}/>
         </ApprovalCard>
 
         <ApprovalCard>
       <CommentDetail 
-        author="om jamp" 
-        text="aaaaaa"  
-        time="2rr2" 
+        author="jamp" 
+        text="Need to determine the current month"  
+        time="12:30PM" 
         avatar={faker.image.avatar()}/>
         </ApprovalCard>       
         
